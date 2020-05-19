@@ -1,0 +1,10 @@
+@media screen and (max-width: 340px) {
+  .modal {
+    display: hidden !important
+  }
+
+}
+
+.modal-titles {
+  justify-content: space-between;
+}
