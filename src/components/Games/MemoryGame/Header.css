@@ -161,3 +161,8 @@
         display: none
     }
 }
+
+.memory-button {
+    display: inline-block;
+    margin-left: 0 auto;
+}

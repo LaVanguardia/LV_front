@@ -14,7 +14,7 @@ class Header extends React.Component {
                 <div>
                 {this.props.gameFinished
                     ?
-                        <div>
+                        <div className="memory-buttons">
                         {/* {` Resultado: ${ Math.round(10 / this.props.tryes * 10) }/ 10 puntos !`} */}
                         <button className="winnerMemoryResult">{` Resultado: ${ Math.round(10 / this.props.tryes * 10) }/ 10 puntos !`} </button>
                         <button className="winner-reinit-button" onClick={this.props.resetGame}>
